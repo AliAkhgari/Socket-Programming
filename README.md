@@ -1,7 +1,7 @@
 # Socket-Programming
 
 ## Introduction
-The goal of this project is to implement a question and answer system for different courses, similar to Stack Overflow, using socket programming and C language system calls. This system allows clients to connect to a server, join specific chat rooms based on their majors, ask and answer questions, and select the best answers.
+This project aims to implement a question-and-answer system for different courses, similar to Stack Overflow, using socket programming and C language system calls. This system allows clients to connect to a server, join specific chat rooms based on their majors, ask and answer questions, and select the best answers.
 
 
 ## Features
@@ -9,7 +9,7 @@ The goal of this project is to implement a question and answer system for differ
   - Clients can connect to the server over a network.
   - Clients are grouped into chat rooms based on their majors: C, B, O, or M.
   - Clients can ask questions and provide answers to questions asked by others.
-  - Clients can select the best answer from provided responses.
+  - Clients can select the best answer from the provided responses.
 - Question and Answer Format:
   - The format of asking a question: client_id#Q:message.
   - The format of answering a question: client_id#client_id_of_questioner?A:message.
